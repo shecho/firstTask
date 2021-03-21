@@ -19,6 +19,8 @@
 
 5. Almacene la información en un archivo JSON local.
 
+
+
 ## Para esta tarea puede utilizar librerías de web-scrapping como [cheerio](https://github.com/cheeriojs/cheerio).
 
 
