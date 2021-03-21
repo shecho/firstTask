@@ -1,16 +1,16 @@
 const request = require("request-promise");
 const cheerio = require("cheerio");
 const fs = require("fs");
-async function init() {
+
+(async function init() {
   try {
     const $ = await request({
       uri: "https://en.wikipedia.org/wiki/List_of_largest_energy_companies",
       transform: (body) => cheerio.load(body),
     });
-    console.log("new response");
     const table = $(".sortable").find("tr").next();
 
-    // another way to get all data
+    // another way to get all data without traversing the elements
     // console.log(table.text());
     // console.log(table.html());
     // let enterprises = [];
@@ -36,7 +36,19 @@ async function init() {
       };
       items.push(item);
     });
-    console.log(items);
+
+    // console.log(items);
+    // get year by company
+
+    const $$ = await request({
+      uri: "https://en.wikipedia.org/wiki/ExxonMobil",
+      transform: (body) => cheerio.load(body),
+    });
+
+    const year = $$(".infobox").find(".noprint").parent();
+    console.log(year.text());
+
+    fs.writeFileSync("./data/year.html", year.html());
     fs.writeFileSync("./data/companies.html", table.html());
     fs.writeFileSync("./data/companies.text", table.text());
     // let data = JSON.stringify(companies);
@@ -44,5 +56,4 @@ async function init() {
   } catch (e) {
     console.log(e);
   }
-}
-init();
+})();
