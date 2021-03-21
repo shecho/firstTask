@@ -25,10 +25,14 @@ async function init() {
       const name = $(el).find("a");
       const stockName = $(el).find("small a").next();
       const country = $(el).find("span").next();
+
+      const link = $(el).find("a");
+      // console.log(link.attr("href"));
       let item = {
         name: name.html(),
         stockName: stockName.html(),
         country: country.html(),
+        link: link.attr("href"),
       };
       items.push(item);
     });
