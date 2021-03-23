@@ -51,6 +51,5 @@ const setItem = async (name, stockName, country, link, year) => {
     year: year,
   };
   items.push(item);
-  // console.log(item)
   return item;
 };
