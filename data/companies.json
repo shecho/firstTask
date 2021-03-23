@@ -13,45 +13,18 @@
     "year": " 96 years ago"
   },
   {
+    "name": "Sinopec",
+    "stockName": "SNP",
+    "country": "China",
+    "link": "/wiki/Sinopec",
+    "year": " 21 years ago"
+  },
+  {
     "name": "Royal Dutch Shell",
     "stockName": "RDS.A",
     "country": "Netherlands",
     "link": "/wiki/Royal_Dutch_Shell",
     "year": " 113 years ago"
-  },
-  {
-    "name": "CNOOC Limited",
-    "stockName": "CEO",
-    "country": "China",
-    "link": "/wiki/CNOOC_Limited"
-  },
-  {
-    "name": "ConocoPhillips",
-    "stockName": "COP",
-    "country": "United States",
-    "link": "/wiki/ConocoPhillips",
-    "year": " 146 years ago"
-  },
-  {
-    "name": "Chevron Corporation",
-    "stockName": "CVX",
-    "country": "United States",
-    "link": "/wiki/Chevron_Corporation",
-    "year": " 141 years ago"
-  },
-  {
-    "name": "Exxon Mobil Corporation",
-    "stockName": "XOM",
-    "country": "United States",
-    "link": "/wiki/Exxon_Mobil_Corporation",
-    "year": " 21 years ago"
-  },
-  {
-    "name": "PetroChina",
-    "stockName": "PTR",
-    "country": "China",
-    "link": "/wiki/PetroChina",
-    "year": " 21 years ago"
   },
   {
     "name": "Schlumberger",
@@ -61,10 +34,24 @@
     "year": " 95 years ago"
   },
   {
-    "name": "Sinopec",
-    "stockName": "SNP",
+    "name": "EOG Resources",
+    "stockName": "EOG",
+    "country": "United States",
+    "link": "/wiki/EOG_Resources",
+    "year": " 22 years ago"
+  },
+  {
+    "name": "Chevron Corporation",
+    "stockName": "CVX",
+    "country": "United States",
+    "link": "/wiki/Chevron_Corporation",
+    "year": " 141 years ago"
+  },
+  {
+    "name": "PetroChina",
+    "stockName": "PTR",
     "country": "China",
-    "link": "/wiki/Sinopec",
+    "link": "/wiki/PetroChina",
     "year": " 21 years ago"
   },
   {
@@ -75,18 +62,11 @@
     "year": " 68 years ago [it]"
   },
   {
-    "name": "Equinor ASA<br><small></small>",
-    "stockName": "EQNR",
-    "country": "Norway",
-    "link": "/wiki/Equinor",
-    "year": " 48 years ago"
-  },
-  {
-    "name": "EOG Resources",
-    "stockName": "EOG",
+    "name": "Exxon Mobil Corporation",
+    "stockName": "XOM",
     "country": "United States",
-    "link": "/wiki/EOG_Resources",
-    "year": " 22 years ago"
+    "link": "/wiki/Exxon_Mobil_Corporation",
+    "year": " 21 years ago"
   },
   {
     "name": "BP",
@@ -96,11 +76,24 @@
     "year": " 111 years ago"
   },
   {
-    "name": "Phillips 66",
-    "stockName": "PSX",
+    "name": "ConocoPhillips",
+    "stockName": "COP",
     "country": "United States",
-    "link": "/wiki/Phillips_66",
-    "year": " 103 years ago"
+    "link": "/wiki/ConocoPhillips",
+    "year": " 146 years ago"
+  },
+  {
+    "name": "CNOOC Limited",
+    "stockName": "CEO",
+    "country": "China",
+    "link": "/wiki/CNOOC_Limited"
+  },
+  {
+    "name": "Equinor ASA<br><small></small>",
+    "stockName": "EQNR",
+    "country": "Norway",
+    "link": "/wiki/Equinor",
+    "year": " 48 years ago"
   },
   {
     "name": "Suncor Energy",
@@ -114,6 +107,13 @@
     "country": "Brazil",
     "link": "/wiki/Petrobras",
     "year": " 67 years ago"
+  },
+  {
+    "name": "Phillips 66",
+    "stockName": "PSX",
+    "country": "United States",
+    "link": "/wiki/Phillips_66",
+    "year": " 103 years ago"
   },
   {
     "name": "Kinder Morgan",
