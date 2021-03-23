@@ -1,0 +1,122 @@
+[
+  {
+    "name": "Exxon Mobil Corporation",
+    "stockName": "XOM",
+    "country": "United States",
+    "link": "/wiki/Exxon_Mobil_Corporation"
+  },
+  {
+    "name": "Royal Dutch Shell",
+    "stockName": "RDS.A",
+    "country": "Netherlands",
+    "link": "/wiki/Royal_Dutch_Shell"
+  },
+  {
+    "name": "Chevron Corporation",
+    "stockName": "CVX",
+    "country": "United States",
+    "link": "/wiki/Chevron_Corporation"
+  },
+  {
+    "name": "Total S.A.",
+    "stockName": "TOT",
+    "country": "France",
+    "link": "/wiki/Total_S.A."
+  },
+  {
+    "name": "BP",
+    "stockName": "BP",
+    "country": "United Kingdom",
+    "link": "/wiki/BP"
+  },
+  {
+    "name": "PetroChina",
+    "stockName": "PTR",
+    "country": "China",
+    "link": "/wiki/PetroChina"
+  },
+  {
+    "name": "Sinopec",
+    "stockName": "SNP",
+    "country": "China",
+    "link": "/wiki/Sinopec"
+  },
+  {
+    "name": "Schlumberger",
+    "stockName": "SLB",
+    "country": "Netherlands",
+    "link": "/wiki/Schlumberger"
+  },
+  {
+    "name": "Enterprise Products",
+    "stockName": "EPD",
+    "country": "United States",
+    "link": "/wiki/Enterprise_Products"
+  },
+  {
+    "name": "Eni",
+    "stockName": "E",
+    "country": "Italy",
+    "link": "/wiki/Eni"
+  },
+  {
+    "name": "ConocoPhillips",
+    "stockName": "COP",
+    "country": "United States",
+    "link": "/wiki/ConocoPhillips"
+  },
+  {
+    "name": "Equinor ASA<br><small></small>",
+    "stockName": "EQNR",
+    "country": "Norway",
+    "link": "/wiki/Equinor"
+  },
+  {
+    "name": "EOG Resources",
+    "stockName": "EOG",
+    "country": "United States",
+    "link": "/wiki/EOG_Resources"
+  },
+  {
+    "name": "Petrobras",
+    "stockName": "PBR",
+    "country": "Brazil",
+    "link": "/wiki/Petrobras"
+  },
+  {
+    "name": "CNOOC Limited",
+    "stockName": "CEO",
+    "country": "China",
+    "link": "/wiki/CNOOC_Limited"
+  },
+  {
+    "name": "Suncor Energy",
+    "stockName": "SU",
+    "country": "Canada",
+    "link": "/wiki/Suncor_Energy"
+  },
+  {
+    "name": "Occidental Petroleum Corporation",
+    "stockName": "OXY",
+    "country": "United States",
+    "link": "/wiki/Occidental_Petroleum_Corporation"
+  },
+  {
+    "name": "Kinder Morgan",
+    "stockName": "KMI",
+    "country": "United States",
+    "link": "/wiki/Kinder_Morgan"
+  },
+  {
+    "name": "Phillips 66",
+    "stockName": "PSX",
+    "country": "United States",
+    "link": "/wiki/Phillips_66"
+  },
+  {
+    "name": "Halliburton",
+    "stockName": "HAL",
+    "country": "United States",
+    "link": "/wiki/Halliburton"
+  }
+]

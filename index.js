@@ -25,10 +25,10 @@ const fs = require("fs");
       items.push(item);
     });
 
-    console.log("line 48", items);
+    // console.log("line 48", items);
     // fs.writeFileSync("./data/companies.html", table.html());
     // fs.writeFileSync("./data/companies.text", table.text());
-    let data = JSON.stringify(companies);
+    let data = JSON.stringify(items, null,2);
     fs.writeFileSync("./data/companies.json", data);
   } catch (e) {
     console.log(e);
