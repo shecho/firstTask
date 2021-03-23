@@ -26,11 +26,10 @@ const fs = require("fs");
     });
 
     console.log("line 48", items);
-
-    fs.writeFileSync("./data/companies.html", table.html());
-    fs.writeFileSync("./data/companies.text", table.text());
-    // let data = JSON.stringify(companies);
-    // fs.writeFileSync("./data/companies.json", data);
+    // fs.writeFileSync("./data/companies.html", table.html());
+    // fs.writeFileSync("./data/companies.text", table.text());
+    let data = JSON.stringify(companies);
+    fs.writeFileSync("./data/companies.json", data);
   } catch (e) {
     console.log(e);
   }
