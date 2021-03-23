@@ -2,6 +2,7 @@ const request = require("request-promise");
 const cheerio = require("cheerio");
 const fs = require("fs");
 
+let items = [];
 // main program
 (async () => {
   try {
@@ -11,24 +12,20 @@ const fs = require("fs");
     });
     const table = $(".sortable").find("tr").next();
 
-    let items = [];
     table.each(async (i, el) => {
       const name = $(el).find("a");
       const stockName = $(el).find("small a").next();
       const country = $(el).find("span").next();
       const link = $(el).find("a");
-      // let uri = link.attr("href");
-      // let fullUri = `https://en.wikipedia.org${uri}`;
-      // let year = await getYear(fullUri);
-      // console.log(year);
-      let item = setItem(name, stockName, country, link);
-      items.push(item);
+      let uri = link.attr("href");
+      let fullUri = `https://en.wikipedia.org${uri}`;
+      let year = await getYear(fullUri);
+      await setItem(name, stockName, country, link, year);
+      let data = JSON.stringify(items, null, 2);
+      fs.writeFileSync("./data/companies.json", data);
     });
 
-    // console.log("line 48", items);
-    // fs.writeFileSync("./data/companies.html", table.html());
-    // fs.writeFileSync("./data/companies.text", table.text());
-    let data = JSON.stringify(items, null,2);
+    let data = JSON.stringify(items, null, 2);
     fs.writeFileSync("./data/companies.json", data);
   } catch (e) {
     console.log(e);
@@ -41,15 +38,19 @@ const getYear = async (uri) => {
     transform: (body) => cheerio.load(body),
   });
   let year = $$(".infobox").find(".noprint").text();
-  return year;
+  let yearSplited = year.split(";");
+  return yearSplited[1];
 };
 
-const setItem = (name, stockName, country, link) => {
+const setItem = async (name, stockName, country, link, year) => {
   let item = {
     name: name.html(),
     stockName: stockName.html(),
     country: country.html(),
     link: link.attr("href"),
+    year: year,
   };
+  items.push(item);
+  // console.log(item)
   return item;
 };
